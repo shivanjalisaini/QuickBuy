@@ -1,0 +1,125 @@
+.discounted-slider-controls1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 46px;
+  margin-bottom: 26px;
+  position: relative;
+}
+
+.discounted-slider-button1 {
+  background-color: #5b9bdf;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+  width: 70px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.discounted-slider-button1:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.discounted-slider-button1:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.discounted-products-section1 {
+  margin: 0 auto;
+  max-width: 1375px;
+  padding: 8px;
+}
+
+.discounted-products-list1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.discounted-product-card1 {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  background: linear-gradient(145deg, #f0f0f0, #ffffff);
+  margin: 0 8px;
+}
+
+.discounted-product-card1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(68, 68, 68, 0.1);
+}
+
+.discounted-product-horizontal-layout1 {
+  display: flex;
+  width: 100%;
+}
+
+.discounted-product-image-wrapper1 {
+  width: 65%;
+  height: 120%;
+  overflow: hidden;
+}
+
+.discounted-product-image1 {
+  width: 105%;
+  height: 215px;
+  object-fit: cover;
+}
+
+.discounted-product-info1 {
+  width: 60%;
+  padding: 16px;
+}
+
+.discounted-product-title1 {
+  font-weight: bold;
+}
+
+.discounted-product-rating1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.discounted-product-rating-value1 {
+  margin-left: 5px;
+}
+
+.discounted-product-price-current1 {
+  margin-top: 10px;
+  color: green;
+  font-weight: bolder;
+}
+
+.discounted-product-discount1 {
+  color: white;
+  background-color: red;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.discounted-product-price-original1 {
+  margin-top: 5px;
+  color: #999;
+}
+
+.discounted-see-more-button1 {
+  color: #1976d2;
+  text-transform: uppercase;
+}

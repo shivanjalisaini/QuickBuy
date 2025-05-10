@@ -1,0 +1,163 @@
+.track-order {
+  padding: 20px;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: -20px;
+  color: #333;
+}
+
+.order-tab {
+  margin-bottom: 20px;
+}
+
+.order-tab h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.order-details {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.arriving-date {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.arriving-date h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.shipping-address-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shipping-address-box h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.address-details {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.timeline-container {
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.circle-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: gray;
+  z-index: 1;
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.line {
+  position: absolute;
+  width: 4px;
+  background-color: gray;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: calc(100% + 20px);
+  z-index: 0;
+}
+
+.line.active {
+  background-color: #28a745;
+}
+
+.timeline-content {
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+.timeline-content p {
+  margin: 5px 0;
+}
+
+.view-order-details {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  background-color: #e9760b;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+
+.view-order-details:hover {
+  background-color: #333;
+}

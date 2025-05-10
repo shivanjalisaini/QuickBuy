@@ -1,0 +1,32 @@
+.footer {
+  background-color: #f3f2f2;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer .MuiTypography-body1 {
+  margin-bottom: 8px;
+}
+
+.footer .MuiTypography-body2 {
+  color: #555;
+}
+
+.signup-button {
+  width: 150px; /* Adjust the width as needed */
+  background-color: #00a1a7;
+}
+
+.back-to-top {
+  font-weight: bold;
+  color: #3340fcdc; /* Updated color */
+  /* text-decoration: underline; */
+  cursor: pointer;
+  font-family: Arial; /* Updated font family */
+}
+
+.footer-divider {
+  margin: 20px auto;
+  width: 100%;
+  border: 1px solid #666; /* Darker color for the divider */
+}

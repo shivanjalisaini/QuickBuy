@@ -1,0 +1,127 @@
+.order-details-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: #f4f4f9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.order-details-container {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.order-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.order-id,
+.order-date {
+  margin-bottom: 15px;
+}
+
+.header-right .invoice-label {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+  margin-right: -30px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.separator-line {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.order-details-info .info-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-item h3 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.info-item p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.final-values-section {
+  margin-top: 30px;
+  border-top: 2px solid #ddd;
+  padding-top: 15px;
+}
+
+.final-values-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.final-values-row h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+.final-values-row p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.download-invoice-button {
+  background-color: #0056b3 ;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.download-invoice-button:hover {
+  background-color:#0c62bd;
+  transform: scale(1.001);
+}
+
+.download-invoice-button:focus {
+  outline: none;
+}

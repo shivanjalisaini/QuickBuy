@@ -1,0 +1,116 @@
+.category-products-page {
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+
+.category-products-title {
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.category-products-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-family: "Arial", sans-serif;
+  letter-spacing: 1px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.category-product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.category-product-card {
+  height: 100%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: linear-gradient(145deg, #f0f0f0, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.category-product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.category-product-image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.category-product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-product-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+.category-product-price {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #ff6f61;
+  margin: 5px;
+  margin-bottom: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.category-product-reviews {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 1.3rem;
+  color: #ddd;
+}
+
+.star.filled {
+  color: #f5c518;
+}
+
+@media (max-width: 1200px) {
+  .category-product-card {
+    width: calc(33.333% - 30px);
+  }
+}
+
+@media (max-width: 900px) {
+  .category-product-card {
+    width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 600px) {
+  .category-product-card {
+    width: calc(100% - 30px);
+  }
+}

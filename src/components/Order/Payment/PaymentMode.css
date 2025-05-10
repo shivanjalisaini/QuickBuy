@@ -1,0 +1,137 @@
+.payment-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.payment-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.payment-header h2 {
+  font-size: 2.5rem;
+  color: #212121;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.payment-header .payment-description {
+  font-size: 1.1rem;
+  color: #616161;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 40px;
+}
+
+.payment-option {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.payment-option.active {
+  border-color: #007bff;
+  box-shadow: 0 12px 24px rgba(0, 123, 255, 0.3);
+}
+
+.payment-option:hover:not(.disabled) {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.payment-option.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.payment-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: #007bff;
+}
+
+.payment-text {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.payment-text small {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.proceed-button {
+  padding: 15px 30px;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.proceed-button:hover {
+  background: linear-gradient(to right, #0056b3, #003d79);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.proceed-button:active {
+  background: linear-gradient(to right, #003d79, #002a52);
+  transform: scale(0.98);
+}
+
+.payment-footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #007bff;
+}

@@ -1,0 +1,37 @@
+.all-reviews-container {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.review-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.review-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating .MuiSvgIcon-root {
+  color: gold;
+}
+
+.delete-icon {
+  color: red;
+}
+
+.no-reviews-message {
+  font-weight: bold;
+  text-align: center;
+}

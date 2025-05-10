@@ -1,0 +1,155 @@
+.custom-navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 50% !important;
+  position: relative;
+  margin-top: 10px !important;
+}
+
+.search-icon {
+  color: #2b2929 !important;
+  position: absolute !important;
+  left: 10px !important;
+  font-size: 1.2rem !important;
+  pointer-events: none !important;
+  margin-bottom: 17px !important;
+}
+
+.search-icon-1 {
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding-left: 35px !important;
+  font-size: 1rem !important;
+  border-radius: 19px !important;
+  border: 1px solid #ccc !important;
+  height: 40px !important;
+  margin-top: -17px;
+}
+
+.navbar-icons {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar-icon {
+  color: #000000 !important;
+  font-size: 1.5rem !important;
+  cursor: pointer !important;
+  position: relative !important;
+  margin-right: 5px;
+}
+
+.profile-container,
+.cart-icon-container,
+.account-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.profile-text,
+.cart-text {
+  color: #000000;
+  margin-left: 8px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.cart-badge {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.account-dropdown {
+  position: absolute;
+  top: 70%;
+  margin-right: 100px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.account-dropdown a {
+  display: block;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.account-dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: auto;
+}
+
+.suggestions-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 100%;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+  top: 100%;
+  left: 0;
+}
+
+.suggestion-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.suggestion-item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}

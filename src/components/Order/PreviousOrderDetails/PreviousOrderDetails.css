@@ -1,0 +1,134 @@
+.product-details-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 15px auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top:20px;
+}
+
+.product-details-container h1{
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.modal-product-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.share-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.share-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.share-menu {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.share-option {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.share-option:hover {
+  color: #007bff;
+}
+
+.product-info {
+  margin-bottom: 20px;
+}
+
+.modal-delivery-status {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.review-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.write-review-button,
+.track-order-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.write-review-button:hover,
+.track-order-button:hover {
+  background-color: #0056b3;
+}
+
+.related-products {
+  margin-top: 30px;
+}
+
+.related-products h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.customer-support {
+  margin-top: 30px;
+}
+
+.customer-support h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.support-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.support-button:hover {
+  background-color: #0056b3;
+}

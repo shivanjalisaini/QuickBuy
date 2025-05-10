@@ -1,0 +1,134 @@
+.update-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  background: linear-gradient(135deg, #ececec, #ffffff);
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 15px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #007bff;
+}
+
+.haha {
+  display: flex;
+  gap: 10px;
+}
+
+.change-picture-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.change-picture-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-picture-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.delete-picture-button:hover {
+  background-color: #cc0000;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.profile-details {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-item span:first-child {
+  flex: 0 0 120px;
+  font-weight: bold;
+}
+
+.profile-item span:last-child {
+  flex: 1;
+}
+
+.profile-item input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.edit-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.edit-icon:hover {
+  color: #0056b3;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background-color: #ffa000;
+}

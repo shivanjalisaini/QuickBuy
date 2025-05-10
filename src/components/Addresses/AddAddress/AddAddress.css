@@ -1,0 +1,112 @@
+.add-address-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.add-address-container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-address-container h2 {
+  margin-bottom: 2.5rem;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.add-address-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.add-address-form input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.add-address-form input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  outline: none;
+}
+
+.add-address-form input.error {
+  border-color: #f44336;
+  box-shadow: 0 0 8px rgba(244, 67, 54, 0.3);
+}
+
+.add-address-form select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.add-address-form select:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  outline: none;
+}
+
+.add-address-form select.error {
+  border-color: #f44336;
+  box-shadow: 0 0 8px rgba(244, 67, 54, 0.3);
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.submit-btn:active {
+  background-color: #388e3c;
+  transform: translateY(0);
+}
+
+.add-address-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+  z-index: -1;
+}
